@@ -1,5 +1,7 @@
+// Must insert your personal key here at "key"
+
 const weatherapi = {
-    key: "84f8325f5f52a670b0e88f0fc8e456aa",
+    key: " ",
     base: "http://api.openweathermap.org/data/2.5/"
 }
 
