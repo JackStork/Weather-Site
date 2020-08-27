@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'montserrat', sans-serif;
+    background-image: url('/images/denver.jpg');
+    background-size: cover;
+    background-position: top center;
+}
+
+.sidebar {
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    background-color: black;
+    font-family: 'montserrat', sans-serif;
+}
+
+.sidebar a {
+    font-size: 20px;
+    color: #FFF;
+    font: oblique;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    padding-top: 40px;
+    padding-left: 20px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0);
+    transition: border 500ms ease;
+}
+a:hover {
+    border-bottom: 1px solid white;
+}
+
+.fadesidebar {
+    position: absolute;
+    left: 100px;
+    width: 700px;
+    height: 100%;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), black);
+    pointer-events: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    color: white;
+    font-size: 50px;
+}
+
+.geninfo .sitestuff {
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.geninfo .apicredit {
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
